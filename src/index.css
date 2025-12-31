@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Exo 2";
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.customScroll::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  border-radius: 30px;
+}
+
+.customScroll::-webkit-scrollbar-track {
+  border-radius: 30px;
+}
+
+.customScroll:hover::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 30px;
+}
+
+.sidebarScroll::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+  border-radius: 30px;
+}
+
+.sidebarScroll::-webkit-scrollbar-track {
+  border-radius: 30px;
+}
+
+.sidebarScroll::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 30px;
+}
+
+.searchTile:hover {
+  background-color: #e4e4e7;
+}
+
+@media (min-width: 1700px) {
+  .mobileScreen {
+    display: none;
+  }
+}
+
+@media (max-width: 1700px) {
+  .websiteWrapper {
+    display: none;
+  }
+  .confirm {
+    display: none;
+  }
+}
+
+.gradient {
+  background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+.placehold {
+  background-image: url(./assets/placeholder.svg);
+  background-position: center;
+}
+
+/* .res-back {
+  background-image: url(./assets/swipe/al-2.png);
+  background-position: center;
+  background-size: cover;
+} */
+
+.wall {
+  /* background-image: url("./assets/prplebg2.gif");
+  background-position: center;
+  background-repeat: repeat; */
+  background-color: #e5e5e5;
+}
+
+.all-unset {
+  all: unset;
+}
+
+.responsiveDialog {
+  font-size: large;
+}
+
+.hljs span {
+  font-family: monospace;
+}
+
+@media (max-width: 1020px) {
+  .responsiveDialog {
+    font-size: medium;
+  }
+  .responsiveDialog h1 {
+    font-size: 25px;
+  }
+  .imageBox {
+    margin-bottom: 20px;
+  }
+  .responsiveDialog .img1 {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  .responsiveDialog .img2 {
+    width: 100px;
+    height: 100px;
+  }
+  .responsiveDialog .dialogBox {
+    width: 400px;
+  }
+}
+
+@media (max-width: 640px) {
+  .responsiveDialog {
+    font-size: small;
+  }
+  .responsiveDialog h1 {
+    font-size: 20px;
+  }
+  .imageBox {
+    margin-bottom: 10px;
+  }
+  .responsiveDialog .topNav {
+    font-size: 25px;
+  }
+  .responsiveDialog .content {
+    padding: 12px;
+  }
+  .responsiveDialog .para3 {
+    margin-bottom: 15px;
+  }
+  .responsiveDialog .img1 {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  .last {
+    margin-top: 20px;
+  }
+  .responsiveDialog .img2 {
+    width: 75px;
+    height: 75px;
+  }
+  .responsiveDialog .dialogBox {
+    width: 300px;
+  }
+}
+
+@media (max-width: 440px) {
+  .responsiveDialog {
+    font-size: small;
+  }
+  .responsiveDialog h1 {
+    font-size: 20px;
+  }
+  .imageBox {
+    margin-bottom: 10px;
+  }
+  .responsiveDialog .para3 {
+    margin-bottom: 15px;
+  }
+  .responsiveDialog .img1 {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  .last {
+    margin-top: 20px;
+  }
+  .responsiveDialog .img2 {
+    width: 65px;
+    height: 65px;
+  }
+  .responsiveDialog .dialogBox {
+    width: 200px;
+  }
+  .responsiveDialog .para1 {
+    margin-top: 4px;
+  }
+  .responsiveDialog .para2 {
+    margin-top: 12px;
+  }
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 25%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 25%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
