@@ -176,7 +176,7 @@ export default function Home() {
                   </span>
                 ) : (
                   <button
-                    onClick={() => copyEmail("amulyajain123@gmail.com")}
+                    onClick={() => copyEmail("atulyajain306@gmail.com")}
                     className=" hover:bg-stone-100 rounded-lg px-2"
                   >
                     <span className="text-base text-nowrap font-medium ">

@@ -222,12 +222,12 @@ export default function SideMenu() {
         </div>
         <div className=" flex-col border-t-2 mt-8 pt-4 border-neutral-400 flex justify-center items-center w-full ">
           <div className="flex gap-x-4 my-3">
-            <a target="_blank" href="https://github.com/AmulyaJain123">
+            <a target="_blank" href="https://github.com/Atulyajain306">
               <img src={github} className="w-[20px]" alt="" />
             </a>
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/amulya-jain-a31180255/"
+              href="https://www.linkedin.com/in/atulya-jain-b04236303/"
             >
               <img src={linkedin} className="w-[20px]" alt="" />
             </a>
